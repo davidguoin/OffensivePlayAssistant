@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE1457632D46ADF200419C51 /* PlayDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1457622D46ADE800419C51 /* PlayDatabase.swift */; };
+		BE1457652D46AE1900419C51 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1457642D46AE1500419C51 /* Play.swift */; };
+		BE1457712D470F2000419C51 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = BE1457702D470F2000419C51 /* DGCharts */; };
+		BE386B0A2D4719DD0002DB13 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = BE386B092D4719DD0002DB13 /* DGCharts */; };
 		BE46B9042D3495F000A2B8D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B9032D3495F000A2B8D3 /* AppDelegate.swift */; };
 		BE46B9062D3495F000A2B8D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B9052D3495F000A2B8D3 /* SceneDelegate.swift */; };
 		BE46B9082D3495F000A2B8D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B9072D3495F000A2B8D3 /* ViewController.swift */; };
@@ -16,6 +20,8 @@
 		BE46B91B2D3495F500A2B8D3 /* OffensivePlayAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B91A2D3495F500A2B8D3 /* OffensivePlayAssistantTests.swift */; };
 		BE46B9252D3495F500A2B8D3 /* OffensivePlayAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B9242D3495F500A2B8D3 /* OffensivePlayAssistantUITests.swift */; };
 		BE46B9272D3495F500A2B8D3 /* OffensivePlayAssistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B9262D3495F500A2B8D3 /* OffensivePlayAssistantUITestsLaunchTests.swift */; };
+		BE46B9342D44707D00A2B8D3 /* DecisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B9332D44707D00A2B8D3 /* DecisionViewController.swift */; };
+		BE46B9372D4472BA00A2B8D3 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46B9362D4472BA00A2B8D3 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE1457622D46ADE800419C51 /* PlayDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDatabase.swift; sourceTree = "<group>"; };
+		BE1457642D46AE1500419C51 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		BE1457682D46E5CE00419C51 /* Charts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Charts; path = "/Users/lorilookliss/Library/Developer/Xcode/DerivedData/OffensivePlayAssistant-cytrilwyqlebjcaifrchimrxripv/SourcePackages/checkouts/Charts"; sourceTree = "<absolute>"; };
 		BE46B9002D3495F000A2B8D3 /* OffensivePlayAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OffensivePlayAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE46B9032D3495F000A2B8D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE46B9052D3495F000A2B8D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,8 @@
 		BE46B9202D3495F500A2B8D3 /* OffensivePlayAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OffensivePlayAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE46B9242D3495F500A2B8D3 /* OffensivePlayAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffensivePlayAssistantUITests.swift; sourceTree = "<group>"; };
 		BE46B9262D3495F500A2B8D3 /* OffensivePlayAssistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffensivePlayAssistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE46B9332D44707D00A2B8D3 /* DecisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionViewController.swift; sourceTree = "<group>"; };
+		BE46B9362D4472BA00A2B8D3 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1457712D470F2000419C51 /* DGCharts in Frameworks */,
+				BE386B0A2D4719DD0002DB13 /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE1457672D46E5CE00419C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1457682D46E5CE00419C51 /* Charts */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE46B8F72D3495F000A2B8D3 = {
 			isa = PBXGroup;
 			children = (
+				BE46B9352D4471C700A2B8D3 /* Controllers */,
 				BE46B9022D3495F000A2B8D3 /* OffensivePlayAssistant */,
 				BE46B9192D3495F500A2B8D3 /* OffensivePlayAssistantTests */,
 				BE46B9232D3495F500A2B8D3 /* OffensivePlayAssistantUITests */,
+				BE1457672D46E5CE00419C51 /* Frameworks */,
 				BE46B9012D3495F000A2B8D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +122,8 @@
 		BE46B9022D3495F000A2B8D3 /* OffensivePlayAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				BE1457642D46AE1500419C51 /* Play.swift */,
+				BE1457622D46ADE800419C51 /* PlayDatabase.swift */,
 				BE46B9032D3495F000A2B8D3 /* AppDelegate.swift */,
 				BE46B9052D3495F000A2B8D3 /* SceneDelegate.swift */,
 				BE46B9072D3495F000A2B8D3 /* ViewController.swift */,
@@ -125,6 +150,15 @@
 				BE46B9262D3495F500A2B8D3 /* OffensivePlayAssistantUITestsLaunchTests.swift */,
 			);
 			path = OffensivePlayAssistantUITests;
+			sourceTree = "<group>";
+		};
+		BE46B9352D4471C700A2B8D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE46B9332D44707D00A2B8D3 /* DecisionViewController.swift */,
+				BE46B9362D4472BA00A2B8D3 /* InputViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +225,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					BE46B8FF2D3495F000A2B8D3 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -215,6 +249,9 @@
 				Base,
 			);
 			mainGroup = BE46B8F72D3495F000A2B8D3;
+			packageReferences = (
+				BE386B082D4719DD0002DB13 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = BE46B9012D3495F000A2B8D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE46B9342D44707D00A2B8D3 /* DecisionViewController.swift in Sources */,
+				BE46B9372D4472BA00A2B8D3 /* InputViewController.swift in Sources */,
 				BE46B9082D3495F000A2B8D3 /* ViewController.swift in Sources */,
 				BE46B9042D3495F000A2B8D3 /* AppDelegate.swift in Sources */,
+				BE1457652D46AE1900419C51 /* Play.swift in Sources */,
+				BE1457632D46ADF200419C51 /* PlayDatabase.swift in Sources */,
 				BE46B9062D3495F000A2B8D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +393,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -412,6 +454,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -489,7 +532,6 @@
 		BE46B92E2D3495F500A2B8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,7 +551,6 @@
 		BE46B92F2D3495F500A2B8D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -529,7 +570,6 @@
 		BE46B9312D3495F500A2B8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HNSS2T4K39;
@@ -547,7 +587,6 @@
 		BE46B9322D3495F500A2B8D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HNSS2T4K39;
@@ -602,6 +641,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE14576F2D470F2000419C51 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		BE386B082D4719DD0002DB13 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE1457702D470F2000419C51 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE14576F2D470F2000419C51 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		BE386B092D4719DD0002DB13 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE386B082D4719DD0002DB13 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BE46B8F82D3495F000A2B8D3 /* Project object */;
 }
